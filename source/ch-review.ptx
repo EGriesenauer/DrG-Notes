@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-review" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Review</title>
+
+  <introduction>
+    <p> 
+      This chapter will discuss review topics that I expect that you have seen before. It's essential to be comfortable
+      with these topics, because we will build on all of them throughout our course.
+    </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-section-name.ptx" />
+
+</chapter>

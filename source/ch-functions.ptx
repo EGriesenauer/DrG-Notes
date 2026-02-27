@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Functions</title>
+
+  <introduction>
+    <p> 
+      In this chapter, you'll learn definitions related to functions, properties of functions, function notation, 
+      and ways to combine functions to create new ones.
+    </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-def-function.ptx" />
+
+</chapter>
