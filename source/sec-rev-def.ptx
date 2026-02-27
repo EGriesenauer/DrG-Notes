@@ -14,8 +14,7 @@
     the time to learn the words that make up this language.
   </p>
 
-  <definition xml:id="definition-expression">
-    <idx> expression </idx>
+  <definition xml:id="def-expression">
     <statement>
       <p>
         An <term>expression</term> is a combination of numbers, variables, and operations.
@@ -34,6 +33,53 @@
     line. Positive real numbers correspond to lengths. All real numbers are positive, negative, or zero. Real numbers include
     whole numbers, fractions, and irrational numbers. Irrational numbers, like <m>\pi</m> and <m>\sqrt{2}</m>, are numbers
     that can't be written as ratios of whole numbers, and their decimal representations are nonterminating and nonrepeating.
+  </p>
+
+  <p>
+    A <term>variable</term> is a letter or symbol that is used to represent an unknown or unspecified number. There is some
+    nuance here. In an equation, the variable is unknown and the goal will be to solve for all possible values of the
+    variable that make the equation true. In function notation, the variable is unspecified, and we will replace the variable
+    with various numbers and see how the output of the function changes.
+  </p>
+
+  <p>
+    An <term>operation</term> is a rule for transforming one or more numbers into a new number. Most operations act on two
+    numbers, and examples of operations include <em>addition, subtraction, multiplication, and division</em>. Importantly,
+    equality (<m>=</m>) is <em>not</em> an operation, but instead something called a <term>relation</term>. So, while 
+    <m>15x^2+3x</m> and <m>\frac{9x-3}{2}</m> are examples of expressions, the equation <m>3x+2 = 6x -1</m> is not an
+    expression.
+  </p>
+
+  <definition xml:id="def-equation">
+    <statement>
+      <p>
+        An <term>equation</term> is statement that the values of two mathematical expressions are equal.
+      </p>
+    </statement>
+  </definition>
+
+  <p>
+    An equation might always be true, like the equations <m>2+2=4</m> and <m>\ln \left( e^3 \right) = 3</m>, or they
+    might be conditionally true, such as the equation <m>5x+3x^2 = 2</m>, which is only true if <m>x=-2</m> or
+    <m>x = \frac{1}{3}</m>. It is also possible for an equation to always be false, such as the equation 
+    <m>\sin^2(x)+\cos^2(x) = 0</m>.
+  </p>
+
+  <definition xml:id="def-inequality">
+    <statement>
+      <p>
+        An <term>inequality</term> is a statement that compares two expressions using one of the following symbols:
+        <m>&lt;</m> (less than), <m>\leq</m> (less than or equal to), <m>&gt;</m> (greater than), <m>\geq</m> (great than
+        or equal to), or <m>neq</m> (not equal).
+      </p>
+    </statement>
+  </definition>
+
+  <p>
+    Just like equations, an inequality might be always true, conditionally true, or always false. For example, the
+    inequality <m>x^2 \geq 0</m> is true for every real number <m>x</m> because the square of a real number is always
+    zero or positive. On the other hand, the inequality <m>x^2 &lt; x</m> is only true if the number <m>x</m> is between
+    0 and 1.
   </p>
 
 </section>
