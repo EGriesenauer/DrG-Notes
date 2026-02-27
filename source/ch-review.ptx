@@ -12,5 +12,6 @@
 
   <!-- include sections -->
   <xi:include href="sec-rev-def.ptx" />
+  <xi:include href="sec-interval-notation.ptx" />
 
 </chapter>

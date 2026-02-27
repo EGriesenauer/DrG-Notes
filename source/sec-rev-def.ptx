@@ -14,7 +14,9 @@
     the time to learn the words that make up this language.
   </p>
 
-  <definition xml:id="def-expression">
+  <definition xml:id="def-expression"><title>Expression</title>
+  
+  
     <statement>
       <p>
         An <term>expression</term> is a combination of numbers, variables, and operations.
@@ -50,7 +52,7 @@
     expression.
   </p>
 
-  <definition xml:id="def-equation">
+  <definition xml:id="def-equation"><title>Equation</title>
     <statement>
       <p>
         An <term>equation</term> is statement that the values of two mathematical expressions are equal.
@@ -65,7 +67,7 @@
     <m>\sin^2(x)+\cos^2(x) = 0</m>.
   </p>
 
-  <definition xml:id="def-inequality">
+  <definition xml:id="def-inequality"><title>Inequality</title>
     <statement>
       <p>
         An <term>inequality</term> is a statement that compares two expressions using one of the following symbols:
@@ -80,6 +82,52 @@
     inequality <m>x^2 \geq 0</m> is true for every real number <m>x</m> because the square of a real number is always
     zero or positive. On the other hand, the inequality <m>x^2 &lt; x</m> is only true if the number <m>x</m> is between
     0 and 1.
+  </p>
+
+  <remark>
+    <title>Notes about inequalities</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            The statement <m>X &gt; 0</m> means that the expression <m>X</m> is positive. On the other hand, the
+            statement <m>X &lt; 0</m> means that the expression <m>X</m> is negative.
+          </p>
+        </li>
+        <li>
+          <p>
+            Geometrically, saying <m>a &lt; b</m> means that the number <m>a</m> is to the left of the number <m>b</m>
+            on the number line, while the statement <m>a &gt; b</m> means that <m>a</m> is to the right of <m>b</m>
+            on the number line.
+          </p>
+        </li>
+        <li>
+          <p>
+            Every inequality written using "<m>&lt;</m>" (or "<m>\leq</m>") can be rewritten using "<m>&gt;</m>" 
+            (or "<m>\geq</m>") and vice versa. For example, the inequality <m>-5 &lt; -2</m> is equivalent to <m>-2 &gt; -5</m>.
+            By the way, can you tell if these inequalities are true or false? If you're not sure, try using a number line.
+          </p>
+        </li>
+      </ul>
+    </p>
+  </remark>
+
+  <definition xml:id="def-set"><title>Set</title>
+    <statement>
+      <p>
+        A <term>set</term> is a collection of numbers (or other mathematical objects).
+      </p>
+    </statement>
+  </definition>
+
+  <p>
+    Think of a set as a box that you can store numbers in. The numbers stored in a set are called the <term>elements</term>
+    of that set. For example, the set containing the numbers 1, 3, and 5 would be written as <m>\{ 1, 3, 5\}</m>. This is
+    a finite set containing three elements. On the other hand, the set of even integers would contain every multiple of 2.
+    This set could be written as <m>\{ \ldots, -4, -2, 0, 2, 4, 6, \ldots \}</m>, where the dots indicate that the pattern
+    would continue in both directions. This is an infinite set, because no matter how many even numbers we list inside
+    the brackets, we can never list them all. We will not spend much time on sets in these courses. If you are interested
+    in learning more about set theory, you should take our Introduction to Mathematical Thinking course.
   </p>
 
 </section>
