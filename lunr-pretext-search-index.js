@@ -15,8 +15,17 @@ var ptx_lunr_docs = [
   "url": "sec-section-name.html",
   "type": "Section",
   "number": "1.1",
-  "title": "Section Title",
-  "body": " Section Title  Text of section.  "
+  "title": "Definition of a Function",
+  "body": " Definition of a Function  Text of section.  "
+},
+{
+  "id": "sec-def-function",
+  "level": "1",
+  "url": "sec-def-function.html",
+  "type": "Section",
+  "number": "2.1",
+  "title": "Definition of a Function",
+  "body": " Definition of a Function  Text of section.  "
 },
 {
   "id": "backmatter-2",
