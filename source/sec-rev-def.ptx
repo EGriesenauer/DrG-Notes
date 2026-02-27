@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-rev-def" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Definitions</title>
+
+  <p> 
+    As we move through Precalculus and Calculus, we will need to be careful with the words that we use. Mathematical writing
+    is characterized by precise and careful language, which allows us to avoid ambiguity and possible misunderstandings.
+    However, we will only avoid misunderstanding if we all know what words mean. Throughout these notes, I will include
+    definitions for the terms that I use, and I need you to make note of these definitions and refer back to them when you
+    see a word you don't recognize. In many ways, mathematics is a language that can describe quantitative or geometric
+    information. Calculus, the focus of these notes, is a language that we can use to describe quantities that change. We
+    will spend a lot of time discussing the rules that govern this language, but it is also crucially important to take
+    the time to learn the words that make up this language.
+  </p>
+
+  <definition xml:id="definition-expression">
+    <idx> expression </idx>
+    <statement>
+      <p>
+        An <term>expression</term> is a combination of numbers, variables, and operations.
+      </p>
+    </statement>
+  </definition>
+
+  <p>
+    This definition perhaps leads to more questions than it answers. After all, what are the precise, mathematical
+    definitions of numbers, variables, and operations?
+  </p>
+
+  <p>
+    For us, in this book, numbers will always refer to <term>real numbers</term>. It is difficult to define real numbers
+    precisely, but you are familiar with them nonetheless. These are numbers that correspond to positions on the number
+    line. Positive real numbers correspond to lengths. All real numbers are positive, negative, or zero. Real numbers include
+    whole numbers, fractions, and irrational numbers. Irrational numbers, like <m>\pi</m> and <m>\sqrt{2}</m>, are numbers
+    that can't be written as ratios of whole numbers, and their decimal representations are nonterminating and nonrepeating.
+  </p>
+
+</section>
