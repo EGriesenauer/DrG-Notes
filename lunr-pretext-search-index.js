@@ -106,7 +106,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.2",
   "title": "Interval Notation",
-  "body": " Interval Notation  Whe we solve equations, our answer is usually a single number or a list of numbers. However, when we are solving inequalities, our answers will be ranges of numbers called intervals .  We need a good way to describe these intervals. There are three methods that will be useful for us. For instance, if I want to describe the set of numbers between 1 and 3, including 1 and excluding 3, then I can describe this using the inequality I can also describe this set visually, by highlighting the numbers on a number line. When doing this, we will need to be careful with the endpoints. We will use a closed (i.e. a filled-in circle) if the endpoint is included, and we will use an open circle if the endpoint is not included. So our example of the numbers between 1 and 3, including 1 and excluding 3, would look like this:  The use of closed and open circles here is not accidental. A closed interval is an interval that includes its both of its endpoints, and an open interval is an interval that excludes both of its endpoints. An interval like the example above, which includes one endpoint and excludes the other, is neither open nor closed. Sometimes this type of interval is class half-open or half-closed .  "
+  "body": " Interval Notation  When we solve equations, our answer is usually a single number or a list of numbers. However, when we are solving inequalities, our answers will be ranges of numbers called intervals .  We need a good way to describe these intervals. There are three methods that will be useful for us. For instance, if I want to describe the set of numbers between 1 and 3, including 1 and excluding 3, then I can describe this using the inequality I can also describe this set visually, by highlighting the numbers on a number line. When doing this, we will need to be careful with the endpoints. We will use a closed (i.e. a filled-in circle) if the endpoint is included, and we will use an open circle if the endpoint is not included. So our example of the numbers between 1 and 3, including 1 and excluding 3, would look like this:  The use of closed and open circles here is not accidental. A closed interval is an interval that includes its both of its endpoints, and an open interval is an interval that excludes both of its endpoints. An interval like the example above, which includes one endpoint and excludes the other, is neither open nor closed. Sometimes this type of interval is class half-open or half-closed .  "
 },
 {
   "id": "sec-interval-notation-2",
@@ -258,26 +258,8 @@ var ptx_lunr_docs = [
   "url": "sec-linear-inequalities.html",
   "type": "Section",
   "number": "2.3",
-  "title": "Interval Notation",
-  "body": " Interval Notation  Whe we solve equations, our answer is usually a single number or a list of numbers. However, when we are solving inequalities, our answers will be ranges of numbers called intervals .  We need a good way to describe these intervals. There are three methods that will be useful for us. For instance, if I want to describe the set of numbers between 1 and 3, including 1 and excluding 3, then I can describe this using the inequality I can also describe this set visually, by highlighting the numbers on a number line. When doing this, we will need to be careful with the endpoints. We will use a closed (i.e. a filled-in circle) if the endpoint is included, and we will use an open circle if the endpoint is not included. So our example of the numbers between 1 and 3, including 1 and excluding 3, would look like this:  The use of closed and open circles here is not accidental. A closed interval is an interval that includes its both of its endpoints, and an open interval is an interval that excludes both of its endpoints. An interval like the example above, which includes one endpoint and excludes the other, is neither open nor closed. Sometimes this type of interval is class half-open or half-closed .  "
-},
-{
-  "id": "sec-linear-inequalities-2",
-  "level": "2",
-  "url": "sec-linear-inequalities.html#sec-linear-inequalities-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "intervals "
-},
-{
-  "id": "sec-linear-inequalities-4",
-  "level": "2",
-  "url": "sec-linear-inequalities.html#sec-linear-inequalities-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "closed interval open interval half-open half-closed "
+  "title": "Linear Inequalities",
+  "body": " Linear Inequalities  An inequality is a statement involving one (or more) of the following symbols ...  "
 },
 {
   "id": "backmatter-2",
