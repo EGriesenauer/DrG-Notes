@@ -142,12 +142,21 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "Linear Functions",
-  "body": " Linear Functions  There are many ways to write the equation of a line. We'll focus on two: Point-Slope Form and Slope- Intercept Form .   Point-Slope Form  This form is good if you just want to write the equation of a line and don't mind if it's messy. Here are the steps for writing the equation of a line in point-slope form.    Find one point on the line, .    Find the slope of the line, .    Plug the point and slope into the equation In this equation, , , and will be numbers that you plug in, and and will remain as variables.    Equation in Point-Slope Form From Graph   Find the equation for the given line. Write your answer in point-slope form.   Graph of a line     f(x) = 3*x-5              First we need to choose a point on the line. I will choose the point , but you could use other points on the graph instead, like or .    Using two points on the graph, we need to find the slope. I will use the points and . With these, I compute the slope. You may use different points from the graph to compute the slope, but no matter which points you choose, you should get .    Plugging this point and slope into the formula for Point-Slope Form, we get If you choose a different point in Step 1, it will result in a different but equivalent answer. For example, if you use the point , your answer will be .      Equation in Point-Slope Form From Data  Find the equation, in point-slope form, of the line that goes through the point and has a slope of .   In this example, we are given the point and the slope . We plug them into the formula for Point-Slope Form, we get which simplifies to become     You Try It!   Find the equation for the given line. Write your answer in point-slope form.   Graph of a line     f(x) = (4\/5)*x+(13\/5)            If you use the point , the answer is .  If you use the point , the answer is .     "
+  "body": " Linear Functions  There are many ways to write the equation of a line. For instance, the equations , , and all describe the linear function graphed below.   Graph of a line     f(x) = 3*x-2          We'll focus on two: Point-Slope Form and Slope- Intercept Form .   Point-Slope Form  This form is good if you just want to write the equation of a line and don't mind if it's messy. Here are the steps for writing the equation of a line in point-slope form.    Find one point on the line, .    Find the slope of the line, .    Plug the point and slope into the equation In this equation, , , and will be numbers that you plug in, and and will remain as variables.    Equation in Point-Slope Form From Graph   Find the equation for the given line. Write your answer in point-slope form.   Graph of a line     f(x) = 3*x-5              First we need to choose a point on the line. I will choose the point , but you could use other points on the graph instead, like or .    Using two points on the graph, we need to find the slope. I will use the points and . With these, I compute the slope. You may use different points from the graph to compute the slope, but no matter which points you choose, you should get .    Plugging this point and slope into the formula for Point-Slope Form, we get If you choose a different point in Step 1, it will result in a different but equivalent answer. For example, if you use the point , your answer will be .      Equation in Point-Slope Form From Data  Find the equation, in point-slope form, of the line that goes through the point and has a slope of .   In this example, we are given the point and the slope . We plug them into the formula for Point-Slope Form, we get which simplifies to become     You Try It!   Find the equation for the given line. Write your answer in point-slope form.   Graph of a line     f(x) = (4\/5)*x+(13\/5)            If you use the point , the answer is .  If you use the point , the answer is .      Slope-Intercept Form  If you want the equation of a line to match function notation ( or on one side by itself), then you should use Slope-Intercept Form to write the equation of your line. As a bonus, as the name suggests, this form encodes important geometric information about the graph of the line, namely its slope and -intercept.    The slope-intercept form of the equation of the line with slope and -intercept is     Recall that the -intercept of a graph describe where the graph crosses the -axis. So when we say that the -intercept of a graph is , that means the graph crosses the -axis at the point . A linear function will always have a unique -intercept. Can you explain why? If not, review the Vertical Line Test.  Because the slope and -intercept of a line are unique, the slope-intercept form of the equation for a line has the added benefit that it is unique, too. That is, there is only one way to write the slope-intercept form of the equation for a given line, so in our examples and exercises, we will all get the same answers.   "
 },
 {
-  "id": "sec-linear-functions-2",
+  "id": "sec-linear-functions-3",
   "level": "2",
-  "url": "sec-linear-functions.html#sec-linear-functions-2",
+  "url": "sec-linear-functions.html#sec-linear-functions-3",
+  "type": "Figure",
+  "number": "2.2.1",
+  "title": "",
+  "body": " Graph of a line     f(x) = 3*x-2         "
+},
+{
+  "id": "sec-linear-functions-4",
+  "level": "2",
+  "url": "sec-linear-functions.html#sec-linear-functions-4",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -158,7 +167,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-linear-functions.html#subsec-point-slope-form-4",
   "type": "Example",
-  "number": "2.2.1",
+  "number": "2.2.2",
   "title": "Equation in Point-Slope Form From Graph.",
   "body": "Equation in Point-Slope Form From Graph   Find the equation for the given line. Write your answer in point-slope form.   Graph of a line     f(x) = 3*x-5              First we need to choose a point on the line. I will choose the point , but you could use other points on the graph instead, like or .    Using two points on the graph, we need to find the slope. I will use the points and . With these, I compute the slope. You may use different points from the graph to compute the slope, but no matter which points you choose, you should get .    Plugging this point and slope into the formula for Point-Slope Form, we get If you choose a different point in Step 1, it will result in a different but equivalent answer. For example, if you use the point , your answer will be .     "
 },
@@ -167,7 +176,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-linear-functions.html#subsec-point-slope-form-5",
   "type": "Example",
-  "number": "2.2.3",
+  "number": "2.2.4",
   "title": "Equation in Point-Slope Form From Data.",
   "body": "Equation in Point-Slope Form From Data  Find the equation, in point-slope form, of the line that goes through the point and has a slope of .   In this example, we are given the point and the slope . We plug them into the formula for Point-Slope Form, we get which simplifies to become    "
 },
@@ -176,9 +185,27 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-linear-functions.html#subsec-point-slope-form-6",
   "type": "Example",
-  "number": "2.2.4",
+  "number": "2.2.5",
   "title": "You Try It!",
   "body": "You Try It!   Find the equation for the given line. Write your answer in point-slope form.   Graph of a line     f(x) = (4\/5)*x+(13\/5)            If you use the point , the answer is .  If you use the point , the answer is .   "
+},
+{
+  "id": "subsec-slope-intercept-form-2",
+  "level": "2",
+  "url": "sec-linear-functions.html#subsec-slope-intercept-form-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Slope-Intercept Form "
+},
+{
+  "id": "def-slope-intercept-form",
+  "level": "2",
+  "url": "sec-linear-functions.html#def-slope-intercept-form",
+  "type": "Definition",
+  "number": "2.2.7",
+  "title": "",
+  "body": "  The slope-intercept form of the equation of the line with slope and -intercept is    "
 },
 {
   "id": "backmatter-2",
