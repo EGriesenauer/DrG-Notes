@@ -25,8 +25,8 @@
   </figure>
 
   <p>
-    We'll focus on two: <term>Point-Slope Form</term> and <term>Slope-
-    Intercept Form</term>.
+    We'll focus on two often-used conventions for how to write the equation of a line: <term>Point-Slope Form</term> 
+    and <term>Slope-Intercept Form</term>.
   </p>
 
   <subsection xml:id="subsec-point-slope-form">
@@ -203,5 +203,175 @@
       has the added benefit that it is unique, too. That is, there is only one way to write the slope-intercept form of 
       the equation for a given line, so in our examples and exercises, we will all get the same answers.
     </p>
+
+    <p>
+      The steps for writing the equation of a line in slope-intercept form based on its graph will depend on whether or
+     not the <m>y</m>-intercept, <m>b</m>, is clear from the graph.
+    </p>
+
+    <p>
+      If you can tell the <m>y</m>-intercept by looking at the graph:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Find the <m>y</m>-intercept, <m>b</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Use two points on the graph to calculate the slope, <m>m</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Plug <m>b</m> and <m>m</m> into the equation <md>y = mx+b.</md>
+          In this equation, <m>m</m> and <m>b</m> will be numbers that you plug in and <m>x</m> and <m>y</m> will remain
+          as variables.
+        </p>
+      </li>
+    </ol>
+
+    <p>
+      If you can't tell the exact value of the <m>y</m>-intercept by looking at the graph:
+    </p>
+    <ol>
+      <li>
+        <p>
+          Use two points on the graph to calculate the slope, <m>m</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          Choose one point from the graph, <m>(a,b)</m>, and plug it into Point-Slope Form:
+          <md>
+            y-b = m(x-a)
+          </md>
+        </p>
+      </li>
+      <li>
+        <p>
+         Solve the equation for <m>y</m> and simplify so that it is written in the form <m>y = mx+b</m>.
+        </p>
+      </li>
+    </ol>
+
+    <example><title>Equation in Slope-Intercept Form From Graph</title>
+      <statement>
+        <p>
+          Find the equation for the given line. Write your answer in slope-intercept form.
+        </p>
+        <figure>
+          <caption>Graph of a line</caption>
+          <image width="60%">
+          <prefigure label="prefigure-line-3" xmlns="https://prefigure.org">
+            <diagram dimensions="(300,300)" margins="5">
+              <definition>
+              f(x) = (-2/3)*x+2
+              </definition>
+              <coordinates bbox="[-1,-1,4,3]">
+              <grid-axes xlabel="x" ylabel="y"/>
+              <graph at="graph" function="f"/>
+              </coordinates>
+            </diagram>
+          </prefigure>
+          </image>
+        </figure>
+      </statement>
+      <solution>
+        <p>
+          From this graph, we can see that the line crosses the <m>y</m>-axis at the point <m>(0,2)</m>, so the <m>y</m>-
+          intercept is <m>b=2</m>.
+        </p>
+        <p>
+          To find the slope, choose two points from the graph. For instance, we can use the points <m>(0,2)</m> and 
+          <m>(3,0)</m>. Then the slope is
+          <md>
+            m = \frac{0-2}{3-0} = -\frac{2}{3}
+          </md>
+        </p>
+        <p>
+          Plugging the slope and intercept into the formula <m>y = mx+b</m>, our answer is
+          <md>
+            y = -\frac{2}{3}x+2
+          </md>    
+        </p>
+      </solution>
+    </example>
+
+        <example><title>Equation in Slope-Intercept Form From Graph</title>
+      <statement>
+        <p>
+          Find the equation for the given line. Write your answer in point-slope form.
+        </p>
+        <figure>
+          <caption>Graph of a line</caption>
+          <image width="60%">
+          <prefigure label="prefigure-line-4" xmlns="https://prefigure.org">
+            <diagram dimensions="(300,300)" margins="5">
+              <definition>
+              f(x) = (1/3)*x+(1/3)
+              </definition>
+              <coordinates bbox="[-2,-1,4,2]">
+              <grid-axes xlabel="x" ylabel="y"/>
+              <graph at="graph" function="f"/>
+              </coordinates>
+            </diagram>
+          </prefigure>
+          </image>
+        </figure>
+      </statement>
+      <solution>
+        <p>
+          For this graph, it's not clear what the exact value of the <m>y</m>-intercept is. I can tell it is between 0 
+          and <m>0.5</m>, maybe <m>\frac{1}{3}</m> or <m>0.3</m>. We will need to use the second method to write the
+          equation in slope-intercept form.
+        </p>
+
+        <p>
+          Let's start by finding the slope. For this, we need two points on the line. We can use <m>(-1,0)</m> and 
+          <m>(2,1)</m>. The slope is
+          <md>
+            m = \frac{1-0}{2-(-1)} = \frac{1}{3}
+          </md>
+        </p>
+
+        <p>
+          Choose one of these points, say <m>(-1,0)</m> to write the equation in point-slope form:
+          <md>
+            y - 0 = \frac{1}{3}(x+1)
+          </md>
+        </p>
+
+        <p>
+          Simplifying, we get our answer:
+          <md>
+            y = \frac{1}{3}x+\frac{1}{3}
+          </md>
+          From this, we can see that the <m>y</m>-intercept is <m>b = \frac{1}{3}</m>.
+        </p>
+      </solution>
+    </example>
+
+
+     <example><title>Equation in Slope-Intercept Form From Data</title>
+     <statement>
+      Find the equation, in slope-intercept form, of the line that goes through the point <m>(2, 7)</m> and has a slope
+      of <m>m = \frac{1}{2}</m>.
+     </statement>
+     <solution>
+      <p>
+        To get an answer, we will plug the information given into point-slope form, rearrange to get <m>y</m> by itself,
+        and simplify.
+        <md>
+          <mrow> y-7 \amp = \frac{1}{2}(x-2) </mrow>
+          <mrow> y-7 \amp = \frac{1}{2}x - 1 </mrow>
+          <mrow> y \amp = \frac{1}{2}x + 6 </mrow>
+        </md>
+        So our final answer is <m>y = \frac{1}{2}x+6</m>.
+      </p>
+     </solution>  
+    </example>
+
   </subsection>
 </section>
