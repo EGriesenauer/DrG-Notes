@@ -4,28 +4,9 @@
   <title>Linear Inequalities</title>
 
   <p> 
-    Whe we solve equations, our answer is usually a single number or a list of numbers. However, when we are solving 
-    inequalities, our answers will be ranges of numbers called <term>intervals</term>.
+    An inequality is a statement involving one (or more) of the following symbols ...
   </p>
 
-  <p>
-    We need a good way to describe these intervals. There are three methods that will be useful for us. For instance, if I
-    want to describe the set of numbers between 1 and 3, including 1 and excluding 3, then I can describe this using the
-    inequality 
-    <md>
-      1 \leq x &lt; 3.
-    </md>
-    I can also describe this set visually, by highlighting the numbers on a number line. When doing this, we will need
-    to be careful with the endpoints. We will use a <em>closed</em> (i.e. a filled-in circle) if the endpoint is included,
-    and we will use an <em>open</em> circle if the endpoint is not included. So our example of the numbers between 1 and
-    3, including 1 and excluding 3, would look like this:
-  </p>
-
-  <p>
-    The use of closed and open circles here is not accidental. A <term>closed interval</term> is an interval that includes its
-    both of its endpoints, and an <term>open interval</term> is an interval that excludes both of its endpoints. An interval
-    like the example above, which includes one endpoint and excludes the other, is neither open nor closed. Sometimes this
-    type of interval is class <term>half-open</term> or <term>half-closed</term>.
-  </p>
+ 
 
 </section>
