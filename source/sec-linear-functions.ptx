@@ -3,7 +3,29 @@
 <section xml:id="sec-linear-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Linear Functions</title>
   <p>
-    There are many ways to write the equation of a line. We'll focus on two: <term>Point-Slope Form</term> and <term>Slope-
+    There are many ways to write the equation of a line. For instance, the equations <m>y = 3x - 2</m>, <m>3x-y = 2</m>, 
+    and <m>y-1 = 3(x-1)</m> all describe the linear function graphed below.
+  </p>
+
+  <figure>
+    <caption>Graph of a line</caption>
+    <image width="60%">
+      <prefigure label="prefigure-line-0" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+          <definition>
+            f(x) = 3*x-2
+          </definition>
+          <coordinates bbox="[-2,-8,3,8]">
+            <grid-axes xlabel="x" ylabel="y"/>
+            <graph at="graph" function="f"/>
+          </coordinates>
+        </diagram>
+      </prefigure>
+    </image>
+  </figure>
+
+  <p>
+    We'll focus on two: <term>Point-Slope Form</term> and <term>Slope-
     Intercept Form</term>.
   </p>
 
@@ -148,4 +170,38 @@
     
   </subsection>
 
+  <subsection xml:id="subsec-slope-intercept-form">
+    <title>Slope-Intercept Form</title>
+    
+    <p>
+      If you want the equation of a line to match function notation (<m>y</m> or <m>f(x)</m> on one side by itself), then
+      you should use <term>Slope-Intercept Form</term> to write the equation of your line. As a bonus, as the name suggests,
+      this form encodes important geometric information about the graph of the line, namely its slope and <m>y</m>-intercept.
+    </p>
+
+    <definition xml:id="def-slope-intercept-form">
+      <statement>
+        <p>
+          The <term>slope-intercept form</term> of the equation of the line with slope <m>m</m> and <m>y</m>-intercept
+          <m>b</m> is
+          <md>
+            y = mx+b
+          </md>
+        </p>
+      </statement>
+    </definition>
+
+    <p>
+      Recall that the <m>y</m>-intercept of a graph describe where the graph crosses the <m>y</m>-axis. So when we say
+      that the <m>y</m>-intercept of a graph is <m>b</m>, that means the graph crosses the <m>y</m>-axis at the point
+      <m>(0,b)</m>. A linear function will always have a unique <m>y</m>-intercept. Can you explain why? If not, review
+      the Vertical Line Test.
+    </p>
+
+    <p>
+      Because the slope and <m>y</m>-intercept of a line are unique, the slope-intercept form of the equation for a line
+      has the added benefit that it is unique, too. That is, there is only one way to write the slope-intercept form of 
+      the equation for a given line, so in our examples and exercises, we will all get the same answers.
+    </p>
+  </subsection>
 </section>
