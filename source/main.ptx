@@ -6,7 +6,7 @@
 
   <book xml:id="drG-Notes">
     <title>Dr. G's Notes</title>
-    <subtitle>Precalculus, Calculus I, and Calculus II</subtitle>
+    <subtitle>Precalculus</subtitle>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
