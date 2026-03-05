@@ -142,7 +142,16 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "Properties of Functions",
-  "body": " Properties of Functions  Text of section.  "
+  "body": " Properties of Functions  In this section, we will develop some vocabulary that we can use to describe functions. In Precalculus, we will learn about several different types of functions, and this vocabulary will help us describe the functions that we see.   Domain and Range of a Function    Intercepts of a Function    How to Think About Infinity   What are Asymptotes?     End Behavior   "
+},
+{
+  "id": "subsec-thinking-about-infinity-2",
+  "level": "2",
+  "url": "sec-function-properties.html#subsec-thinking-about-infinity-2",
+  "type": "Remark",
+  "number": "2.2.1",
+  "title": "What are Asymptotes?",
+  "body": " What are Asymptotes?  "
 },
 {
   "id": "sec-linear-functions",
