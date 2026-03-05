@@ -3,6 +3,32 @@
 <section xml:id="sec-function-properties" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Properties of Functions</title>
 
-  <p> Text of section. </p>
+  <p> In this section, we will develop some vocabulary that we can use to describe functions. In Precalculus, we will learn about several
+    different types of functions, and this vocabulary will help us describe the functions that we see.
+  </p>
+
+  <subsection xml:id="subsec-domain-range">
+    <title>Domain and Range of a Function</title>
+  </subsection>
+
+  <subsection xml:id="subsec-intercepts">
+    <title>Intercepts of a Function</title>
+    
+  </subsection>
+
+  <subsection xml:id="subsec-thinking-about-infinity">
+    <title>How to Think About Infinity</title>
+
+    <remark>
+      <title>What are Asymptotes?</title>
+      
+    </remark>
+    
+  </subsection>
+
+  <subsection xml:id="subsec-end-behavior">
+    <title>End Behavior</title>
+    
+  </subsection>
 
 </section>
