@@ -142,7 +142,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "Properties of Functions",
-  "body": " Properties of Functions  In this section, we will develop some vocabulary that we can use to describe functions. In Precalculus, we will learn about several different types of functions, and this vocabulary will help us describe the functions that we see.   Domain of a Function  Recall that the domain of a function is the set of allowable inputs. In this section, we will consider how we can find the domain and range algebraically, using the formula for a function. We will revisit these ideas later, as well, as one application for solving polynomial inequalities.  When we are finding the domain of a function, the question we are trying to answer is What input values make this function undefined? The domain will be all other values.  Of course, that begs the question: What types of behaviors will make a function undefined? For now, there are two behaviors to look out for. An expression will be undefined if   It is a fraction and the denominator equals 0.    There is a square root of a negative number.        Find the domain of the function . Write your answer in interval notation.    What can go wrong in this function? There's no square root, but there is a fraction, so we need to find the values of that will result in the denominator being equal to zero. So set the denominator equal to zero and solve: , or .  That means that is not in the domain, since it makes the expression undefined. The domain is all other values of . Written as an inequality, the domain is . Written in interval notation, the domain is .  Notice that when solving for the domain, we focused exclusively on the denominator. We did not use the numerator, , anywhere in our solution.      Find the domain of the function . Write your answer in interval notation.    In this function, the thing that could go wrong is that we could end up with a negative number inside the square root. So the domain will be all values of that make the inside of the square root positive or zero. In symbols,   Notice that in the last step, when dividing both sides by , the inequality flips from to because we divided by a negative number.  This tells us that the domain is all numbers less than or equal to . In interval notation, the domain is .     Intercepts of a Function    How to Think About Infinity   What are Asymptotes?     End Behavior   "
+  "body": " Properties of Functions  In this section, we will develop some vocabulary that we can use to describe functions. In Precalculus, we will learn about several different types of functions, and this vocabulary will help us describe the functions that we see.   Domain of a Function  Recall that the domain of a function is the set of allowable inputs. In this section, we will consider how we can find the domain and range algebraically, using the formula for a function. We will revisit these ideas later, as well, as one application for solving polynomial inequalities.  When we are finding the domain of a function, the question we are trying to answer is What input values make this function undefined? The domain will be all other values.  Of course, that begs the question: What types of behaviors will make a function undefined? For now, there are two behaviors to look out for. An expression will be undefined if   It is a fraction and the denominator equals 0.    There is a square root of a negative number.        Find the domain of the function . Write your answer in interval notation.    What can go wrong in this function? There's no square root, but there is a fraction, so we need to find the values of that will result in the denominator being equal to zero. So set the denominator equal to zero and solve: , or .  That means that is not in the domain, since it makes the expression undefined. The domain is all other values of . Written as an inequality, the domain is . Written in interval notation, the domain is .  Notice that when solving for the domain, we focused exclusively on the denominator. We did not use the numerator, , anywhere in our solution.      Find the domain of the function . Write your answer in interval notation.    In this function, the thing that could go wrong is that we could end up with a negative number inside the square root. So the domain will be all values of that make the inside of the square root positive or zero. In symbols,   Notice that in the last step, when dividing both sides by , the inequality flips from to because we divided by a negative number.  This tells us that the domain is all numbers less than or equal to . In interval notation, the domain is .      Find the domain of the function .    This example is more complicated than the others so far because there are three parts to consider, but the reasoning is the same. We start by asking what could go wrong.  The first part, , will be defined no matter what the value of is, since it does not involve division or a square root. So we can safely ignore this part of the function.  The second part, will be undefined when the denominator is zero, i.e. . That occurs when , so that value will be excluded from the domain.  The final piece, will be undefined when the expression inside the square root is negative, so we solve for the values of where the expression is positive or zero: So the last piece will be defined for all values of that are greater than or equal to 2.  Now we must put these pieces together. From the second term, we know that is excluded from the domain. From the third part, we know that all numbers less than -2 will be excluded from the domain. So the domain will be everything greater than or equal to -2 except . In interval notation this is .     You Try It!   Find the domain of the function . Write your answer in interval notation.    The domain is .     You Try It!   Find the domain of the function . Write your answer in interval notation.    The domain is .     Intercepts of a Function    How to Think About Infinity   What are Asymptotes?     End Behavior   "
 },
 {
   "id": "subsec-domain-range-2",
@@ -172,11 +172,38 @@ var ptx_lunr_docs = [
   "body": "  Find the domain of the function . Write your answer in interval notation.    In this function, the thing that could go wrong is that we could end up with a negative number inside the square root. So the domain will be all values of that make the inside of the square root positive or zero. In symbols,   Notice that in the last step, when dividing both sides by , the inequality flips from to because we divided by a negative number.  This tells us that the domain is all numbers less than or equal to . In interval notation, the domain is .   "
 },
 {
+  "id": "sec-function-properties-6",
+  "level": "2",
+  "url": "sec-function-properties.html#sec-function-properties-6",
+  "type": "Example",
+  "number": "2.2.3",
+  "title": "",
+  "body": "  Find the domain of the function .    This example is more complicated than the others so far because there are three parts to consider, but the reasoning is the same. We start by asking what could go wrong.  The first part, , will be defined no matter what the value of is, since it does not involve division or a square root. So we can safely ignore this part of the function.  The second part, will be undefined when the denominator is zero, i.e. . That occurs when , so that value will be excluded from the domain.  The final piece, will be undefined when the expression inside the square root is negative, so we solve for the values of where the expression is positive or zero: So the last piece will be defined for all values of that are greater than or equal to 2.  Now we must put these pieces together. From the second term, we know that is excluded from the domain. From the third part, we know that all numbers less than -2 will be excluded from the domain. So the domain will be everything greater than or equal to -2 except . In interval notation this is .   "
+},
+{
+  "id": "sec-function-properties-7",
+  "level": "2",
+  "url": "sec-function-properties.html#sec-function-properties-7",
+  "type": "Example",
+  "number": "2.2.4",
+  "title": "You Try It!",
+  "body": " You Try It!   Find the domain of the function . Write your answer in interval notation.    The domain is .   "
+},
+{
+  "id": "sec-function-properties-8",
+  "level": "2",
+  "url": "sec-function-properties.html#sec-function-properties-8",
+  "type": "Example",
+  "number": "2.2.5",
+  "title": "You Try It!",
+  "body": " You Try It!   Find the domain of the function . Write your answer in interval notation.    The domain is .   "
+},
+{
   "id": "subsec-thinking-about-infinity-2",
   "level": "2",
   "url": "sec-function-properties.html#subsec-thinking-about-infinity-2",
   "type": "Remark",
-  "number": "2.2.3",
+  "number": "2.2.6",
   "title": "What are Asymptotes?",
   "body": " What are Asymptotes?  "
 },
