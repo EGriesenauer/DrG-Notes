@@ -9,6 +9,34 @@
 
   <subsection xml:id="subsec-domain-range">
     <title>Domain and Range of a Function</title>
+    <p>
+      Recall that the <term>domain</term> of a function is the set of allowable inputs and the <term>range</term>
+      of a function is the set of possible outputs. In this section, we will consider how we can find the domain
+      and range algebraically, using the formula for a function. We will revisit these ideas later, as well, as one
+      application for solving polynomial inequalities.
+    </p>  
+
+    <p>
+      When we are finding the domain of a function, the question we are trying to answer is <em>What input values
+        make this function undefined?</em> The domain will be all <em>other</em> values.
+    </p> 
+
+    <p>
+      Of course, that begs the question: What types of behaviors will make a function undefined? For now, there
+      are two behaviors to look out for. An expression will be undefined if
+      <ul>
+        <li>
+          <p>
+            It is a fraction and the denominator equals 0.
+          </p>
+        </li>
+        <li>
+          <p>
+            There is a square root of a negative number.
+          </p>
+        </li>
+      </ul>
+    </p>
   </subsection>
 
   <subsection xml:id="subsec-intercepts">
