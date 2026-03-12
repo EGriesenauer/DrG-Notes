@@ -96,6 +96,82 @@
     </solution>
   </example>
 
+  <example>
+    <statement>
+      <p>
+        Find the domain of the function <m>f(x) = 2x - \frac{1}{1-x} + \sqrt{4x+8}</m>.
+      </p>
+    </statement>
+
+    <solution>
+      <p>
+        This example is more complicated than the others so far because there are three parts to consider, but
+        the reasoning is the same. We start by asking what could go wrong. 
+      </p>
+
+      <p>
+        The first part, <m>2x</m>, will be defined no matter what the value of <m>x</m> is, since it does not
+        involve division or a square root. So we can safely ignore this part of the function.
+      </p>
+
+      <p>
+        The second part, <m>\frac{1}{1-x}</m> will be undefined when the denominator is zero, i.e. <m>1-x = 0</m>.
+        That occurs when <m>x=1</m>, so that value will be excluded from the domain.
+      </p>
+
+      <p>
+        The final piece, <m>\sqrt{4x+8}</m> will be undefined when the expression inside the square root is negative,
+        so we solve for the values of <m>x</m> where the expression is positive or zero:
+        <md>
+          <mrow> 4x+8 \amp \geq 0</mrow>
+          <mrow>4x \amp \geq -8 </mrow>
+          <mrow> x \amp \geq -2 </mrow>
+        </md>
+        So the last piece will be defined for all values of <m>x</m> that are greater than or equal to 2.
+      </p>
+
+      <p>
+        Now we must put these pieces together. From the second term, we know that <m>x = 1</m> is excluded from the
+        domain. From the third part, we know that all numbers less than -2 will be excluded from the domain.
+        So the domain will be everything greater than or equal to -2 except <m>x=1</m>. In interval notation this is
+        <m>[-2, 1)\cup(1, \infty)</m>.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <title>You Try It!</title>
+    
+    <statement>
+      <p>
+        Find the domain of the function <m>f(x) = \frac{5}{2x+4}</m>. Write your answer in interval notation.
+      </p>
+    </statement>
+
+    <answer>
+      <p>
+        The domain is <m>(-\infty, -2) \cup (-2, \infty)</m>.
+      </p>
+    </answer>
+    
+  </example>
+
+  <example>
+    <title>You Try It!</title>
+    
+    <statement>
+      <p>
+        Find the domain of the function <m>f(x) = x + \sqrt{3x+2}</m>. Write your answer in interval notation.
+      </p>
+    </statement>
+
+    <answer>
+      <p>
+        The domain is <m>\left[ -\frac{2}{3}, \infty)</m>.
+      </p>
+    </answer>
+  </example>
+
   <subsection xml:id="subsec-intercepts">
     <title>Intercepts of a Function</title>
     
