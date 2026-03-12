@@ -142,7 +142,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "Properties of Functions",
-  "body": " Properties of Functions  In this section, we will develop some vocabulary that we can use to describe functions. In Precalculus, we will learn about several different types of functions, and this vocabulary will help us describe the functions that we see.   Domain and Range of a Function  Recall that the domain of a function is the set of allowable inputs and the range of a function is the set of possible outputs. In this section, we will consider how we can find the domain and range algebraically, using the formula for a function. We will revisit these ideas later, as well, as one application for solving polynomial inequalities.  When we are finding the domain of a function, the question we are trying to answer is What input values make this function undefined? The domain will be all other values.  Of course, that begs the question: What types of behaviors will make a function undefined? For now, there are two behaviors to look out for. An expression will be undefined if   It is a fraction and the denominator equals 0.    There is a square root of a negative number.       Intercepts of a Function    How to Think About Infinity   What are Asymptotes?     End Behavior   "
+  "body": " Properties of Functions  In this section, we will develop some vocabulary that we can use to describe functions. In Precalculus, we will learn about several different types of functions, and this vocabulary will help us describe the functions that we see.   Domain of a Function  Recall that the domain of a function is the set of allowable inputs. In this section, we will consider how we can find the domain and range algebraically, using the formula for a function. We will revisit these ideas later, as well, as one application for solving polynomial inequalities.  When we are finding the domain of a function, the question we are trying to answer is What input values make this function undefined? The domain will be all other values.  Of course, that begs the question: What types of behaviors will make a function undefined? For now, there are two behaviors to look out for. An expression will be undefined if   It is a fraction and the denominator equals 0.    There is a square root of a negative number.        Find the domain of the function . Write your answer in interval notation.    What can go wrong in this function? There's no square root, but there is a fraction, so we need to find the values of that will result in the denominator being equal to zero. So set the denominator equal to zero and solve: , or .  That means that is not in the domain, since it makes the expression undefined. The domain is all other values of . Written as an inequality, the domain is . Written in interval notation, the domain is .  Notice that when solving for the domain, we focused exclusively on the denominator. We did not use the numerator, , anywhere in our solution.      Find the domain of the function . Write your answer in interval notation.    In this function, the thing that could go wrong is that we could end up with a negative number inside the square root. So the domain will be all values of that make the inside of the square root positive or zero. In symbols,   Notice that in the last step, when dividing both sides by , the inequality flips from to because we divided by a negative number.  This tells us that the domain is all numbers less than or equal to . In interval notation, the domain is .     Intercepts of a Function    How to Think About Infinity   What are Asymptotes?     End Behavior   "
 },
 {
   "id": "subsec-domain-range-2",
@@ -151,14 +151,32 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "domain range "
+  "body": "domain "
+},
+{
+  "id": "sec-function-properties-4",
+  "level": "2",
+  "url": "sec-function-properties.html#sec-function-properties-4",
+  "type": "Example",
+  "number": "2.2.1",
+  "title": "",
+  "body": "  Find the domain of the function . Write your answer in interval notation.    What can go wrong in this function? There's no square root, but there is a fraction, so we need to find the values of that will result in the denominator being equal to zero. So set the denominator equal to zero and solve: , or .  That means that is not in the domain, since it makes the expression undefined. The domain is all other values of . Written as an inequality, the domain is . Written in interval notation, the domain is .  Notice that when solving for the domain, we focused exclusively on the denominator. We did not use the numerator, , anywhere in our solution.   "
+},
+{
+  "id": "sec-function-properties-5",
+  "level": "2",
+  "url": "sec-function-properties.html#sec-function-properties-5",
+  "type": "Example",
+  "number": "2.2.2",
+  "title": "",
+  "body": "  Find the domain of the function . Write your answer in interval notation.    In this function, the thing that could go wrong is that we could end up with a negative number inside the square root. So the domain will be all values of that make the inside of the square root positive or zero. In symbols,   Notice that in the last step, when dividing both sides by , the inequality flips from to because we divided by a negative number.  This tells us that the domain is all numbers less than or equal to . In interval notation, the domain is .   "
 },
 {
   "id": "subsec-thinking-about-infinity-2",
   "level": "2",
   "url": "sec-function-properties.html#subsec-thinking-about-infinity-2",
   "type": "Remark",
-  "number": "2.2.1",
+  "number": "2.2.3",
   "title": "What are Asymptotes?",
   "body": " What are Asymptotes?  "
 },
@@ -286,7 +304,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.4",
   "title": "Linear Inequalities",
-  "body": " Linear Inequalities  An inequality is a statement involving one (or more) of the following symbols ...  "
+  "body": " Linear Inequalities  Move this to Review chapter! Must be before section on Properties of Functions. An inequality is a statement involving one (or more) of the following symbols ...  "
 },
 {
   "id": "backmatter-2",
