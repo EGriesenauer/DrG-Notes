@@ -8,10 +8,9 @@
   </p>
 
   <subsection xml:id="subsec-domain-range">
-    <title>Domain and Range of a Function</title>
+    <title>Domain of a Function</title>
     <p>
-      Recall that the <term>domain</term> of a function is the set of allowable inputs and the <term>range</term>
-      of a function is the set of possible outputs. In this section, we will consider how we can find the domain
+      Recall that the <term>domain</term> of a function is the set of allowable inputs. In this section, we will consider how we can find the domain
       and range algebraically, using the formula for a function. We will revisit these ideas later, as well, as one
       application for solving polynomial inequalities.
     </p>  
@@ -38,6 +37,64 @@
       </ul>
     </p>
   </subsection>
+
+  <example>
+    <statement>
+      <p>
+        Find the domain of the function <m>f(x) = \frac{2x}{x-3}</m>. Write your answer in interval notation.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        What can go wrong in this function? There's no square root, but there is a fraction, so we need to find
+        the values of <m>x</m> that will result in the denominator being equal to zero. So set the denominator
+        equal to zero and solve: <m>x-3 = 0</m>, or <m>x =3</m>.
+      </p>
+
+      <p>
+        That means that <m>x = 3</m> is not in the domain, since it makes the expression <m>\frac{2x}{x-3}</m>
+        undefined. The domain is all other values of <m>x</m>. Written as an inequality, the domain is <m>x \neq 3</m>.
+        Written in interval notation, the domain is <m>(-\infty,3) \cup (3, \infty)</m>.
+      </p>
+
+      <p>
+      Notice that when solving for the domain, we focused exclusively on the denominator. We did not use the
+      numerator, <m>2x</m>, anywhere in our solution.
+      </p>
+    </solution>
+
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Find the domain of the function <m>f(x) = \sqrt{5-3x}</m>. Write your answer in interval notation.
+      </p>
+    </statement>
+
+    <solution>
+      <p>
+        In this function, the thing that could go wrong is that we could end up with a negative number inside 
+        the square root. So the domain will be all values of <m>x</m> that make the inside of the square root
+        positive or zero. In symbols,
+        <md>
+          <mrow> 5-3x \amp \geq 0 </mrow>
+          <mrow> -3x \amp \geq -5 </mrow>
+          <mrow> x \amp \leq \frac{5}{3} </mrow>
+        </md>
+      </p>
+
+      <p>
+        Notice that in the last step, when dividing both sides by <m>-3</m>, the inequality flips from <m>\geq</m>
+        to <m>\leq</m> because we divided by a negative number.
+      </p>
+
+      <p>
+        This tells us that the domain is all numbers less than or equal to <m>\frac{5}{3}</m>. In interval 
+        notation, the domain is <m>\left( -\infty, \frac{5}{3} \right]</m>.
+      </p>
+    </solution>
+  </example>
 
   <subsection xml:id="subsec-intercepts">
     <title>Intercepts of a Function</title>
