@@ -14,6 +14,7 @@
     <!-- Include chapters -->
     <xi:include href="./ch-review.ptx" />
     <xi:include href="./ch-functions.ptx"/>
+    <xi:include href="./ch-exp-log.ptx"/>
 
 
     <!-- Include backmatter -->

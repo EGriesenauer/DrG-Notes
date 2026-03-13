@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-exp-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Exponential Functions</title>
+
+  <p> 
+    <definition xml:id="def-exp-function">
+      <statement>
+        <p>
+          An <term>exponential function</term> is a function that can be written in the form
+          <md>
+            f(x) = a^x
+          </md>
+          where <m>a</m> is a positive number (not equal to 1) called the <term>base</term> of the function.
+        </p>
+      </statement>
+    </definition>
+  </p>
+
+  <p>
+    The behavior of the function depends on the value of the base, <m>a</m>. For example, if <m>a=2</m>, the graph
+    <m>y = 2^x</m> looks like
+
+    <figure>
+      <caption>Graph of exponential growth</caption>
+        <image width="60%">
+          <prefigure label="prefigure-exp-growth" xmlns="https://prefigure.org">
+            <diagram dimensions="(300,300)" margins="5">
+              <definition>
+              f(x) = 2^x
+              </definition>
+              <coordinates bbox="[-5,-5,5,35]">
+              <grid-axes xlabel="x" ylabel="y"/>
+              <graph at="graph" function="f"/>
+              </coordinates>
+            </diagram>
+          </prefigure>
+        </image>
+    </figure>
+  </p>
+
+  <p>
+    We can see several properties of the function <m>y=2^x</m> from its graph. It's domain is <m>(-\infty, \infty)</m>.
+    This is because, no matter what we choose for the value of <m>x</m>, the expression <m>2^x</m> is always defined.
+    The graph's range does not contain any negative numbers. In fact, <m>y=0</m> is an asymptote of the graph, and the
+    range is <m>(0, \infty)</m>. The graph does not have any <m>x</m>-intercepts, reflecting the fact that the
+    equation <m>2^x = 0</m> does not have any solutions. The graph has a <m>y</m>-intercept at <m>y=1</m>, because
+    <m>f(0) = 2^0 = 1</m>.
+  </p>
+
+  <p>
+    When we consider the end behavior of the graph, we can see that as <m>x</m> moves to the left on the graph,
+    the <m>y</m>-values get closer to the horizontal asymptote. We can write this concisely as
+    <md>
+      <mrow>y \rightarrow 0 ~\text{as}~ x \rightarrow -\infty.</mrow>
+    </md>
+    On the other side, we can see that as <m>x</m> moves to the right on the graph, the <m>y</m>-values get
+    larger and larger. So we can write
+    <md>
+      <mrow>y \rightarrow \infty ~\text{as}~ x \rightarrow \infty.</mrow>
+    </md>
+    In fact, as <m>x</m> moves to the right, the <m>y</m>-values are growing extremely quickly. Consider this table
+    of values.
+
+  <table>
+  <tabular top="medium">
+    <row bottom="medium" left="medium">
+      <cell right="medium">x</cell>
+      <cell right="medium">0</cell>
+      <cell right="medium">1</cell>
+      <cell right="medium">2</cell>
+      <cell right="medium">3</cell>
+      <cell right="medium">4</cell>
+      <cell right="medium">5</cell>
+    </row>
+    <row bottom="medium" left="medium">
+      <cell right="medium">y</cell>
+      <cell right="medium">1</cell>
+      <cell right="medium">2</cell>
+      <cell right="medium">4</cell>
+      <cell right="medium">8</cell>
+      <cell right="medium">16</cell>
+      <cell right="medium">32</cell>
+    </row>
+    </tabular>
+    </table>
+    Notice that for each step when the <m>x</m>-value increases by one, the <m>y</m>-value doubles. This doubling
+    quickly leads to very large <m>y</m>-values. For example, if we continued our table a few more steps to 
+    <m>x=10</m>, the corresponding <m>y</m>-value would be <m>f(10) = 2^10 = 1024</m>. This type of rapid growth occurs
+    whenever the base of the exponential function is greater than 1, and is called <term>exponential growth</term>.
+  </p>
+
+</section>

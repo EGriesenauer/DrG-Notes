@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-exp-log" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Exponential and Logarithmic Functions</title>
+
+  <introduction>
+    <p> 
+      In this chapter, you'll learn about exponential and logarithmic functions.
+    </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-exp-functions.ptx" />
+
+</chapter>
