@@ -334,6 +334,42 @@ var ptx_lunr_docs = [
   "body": " Linear Inequalities  Move this to Review chapter! Must be before section on Properties of Functions. An inequality is a statement involving one (or more) of the following symbols ...  "
 },
 {
+  "id": "sec-exp-functions",
+  "level": "1",
+  "url": "sec-exp-functions.html",
+  "type": "Section",
+  "number": "3.1",
+  "title": "Exponential Functions",
+  "body": " Exponential Functions     An exponential function is a function that can be written in the form where is a positive number (not equal to 1) called the base of the function.     The behavior of the function depends on the value of the base, . For example, if , the graph looks like  Graph of exponential growth     f(x) = 2^x           We can see several properties of the function from its graph. It's domain is . This is because, no matter what we choose for the value of , the expression is always defined. The graph's range does not contain any negative numbers. In fact, is an asymptote of the graph, and the range is . The graph does not have any -intercepts, reflecting the fact that the equation does not have any solutions. The graph has a -intercept at , because .  When we consider the end behavior of the graph, we can see that as moves to the left on the graph, the -values get closer to the horizontal asymptote. We can write this concisely as On the other side, we can see that as moves to the right on the graph, the -values get larger and larger. So we can write In fact, as moves to the right, the -values are growing extremely quickly. Consider this table of values.    x  0  1  2  3  4  5    y  1  2  4  8  16  32    Notice that for each step when the -value increases by one, the -value doubles. This doubling quickly leads to very large -values. For example, if we continued our table a few more steps to , the corresponding -value would be . This type of rapid growth occurs whenever the base of the exponential function is greater than 1, and is called exponential growth .  "
+},
+{
+  "id": "sec-exp-functions-2",
+  "level": "2",
+  "url": "sec-exp-functions.html#sec-exp-functions-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "exponential function base "
+},
+{
+  "id": "sec-exp-functions-3-4",
+  "level": "2",
+  "url": "sec-exp-functions.html#sec-exp-functions-3-4",
+  "type": "Figure",
+  "number": "3.1.2",
+  "title": "",
+  "body": " Graph of exponential growth     f(x) = 2^x         "
+},
+{
+  "id": "sec-exp-functions-5",
+  "level": "2",
+  "url": "sec-exp-functions.html#sec-exp-functions-5",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "exponential growth "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",
