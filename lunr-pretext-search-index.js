@@ -370,6 +370,42 @@ var ptx_lunr_docs = [
   "body": "exponential growth "
 },
 {
+  "id": "sec-degree-radians",
+  "level": "1",
+  "url": "sec-degree-radians.html",
+  "type": "Section",
+  "number": "4.1",
+  "title": "Measuring Angles: Degrees and Radians",
+  "body": " Measuring Angles: Degrees and Radians  Just like other types of measurements, when we measure how large an angle is, we will need to decide what units to use for our measurement. As in other scientific fields, students will find that the unit we use in class is different from the unit that you are familiar with in everyday life. Outside of the mathematics classroom (and possibly in your high school math classes), you will usually measure angles in degrees . However, in a the Calculus sequence, we will measure angles using a different unit called radians . Using radians instead of degrees makes some geometric formulas simpler, but the main benefit will be in Calculus I. What we'll see is that using radians makes the derivative rules for trigonometric functions much simpler. It's okay if those words don't make sense yet. I wouldn't expect them to. But I want you to know that there are benefits to using radians, even if we don't get to see the payoffs anytime soon.  To define the radian measure of an angle, we need to think of an angle as sitting inside of a circle, with its vertex at the center of a circle.   Angle inscribed in a circle        points=((3,0),(0,0),(-2.12,2.12))    \\theta          The radian measure of the angle is the ratio of the arc length to the radius . That is,     A few remarks about this definition.  Since both arc length and radius are lengths, so the radian measure of an angle is the ratio of two lengths. Because of this, radian is a dimensionless unit and the radian measure of an angle is often written without a unit at all. For instance, instead of writing \" radians\" or \" rad\", we will just write .  Recall that the circumference of a circle is . This is the arc length for the angle that is a full rotation. So, according to the definition, the radian measure of a full rotation is     "
+},
+{
+  "id": "sec-degree-radians-2",
+  "level": "2",
+  "url": "sec-degree-radians.html#sec-degree-radians-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "radians "
+},
+{
+  "id": "sec-degree-radians-4",
+  "level": "2",
+  "url": "sec-degree-radians.html#sec-degree-radians-4",
+  "type": "Figure",
+  "number": "4.1.1",
+  "title": "",
+  "body": " Angle inscribed in a circle        points=((3,0),(0,0),(-2.12,2.12))    \\theta       "
+},
+{
+  "id": "sec-degree-radians-5",
+  "level": "2",
+  "url": "sec-degree-radians.html#sec-degree-radians-5",
+  "type": "Definition",
+  "number": "4.1.2",
+  "title": "",
+  "body": "  The radian measure of the angle is the ratio of the arc length to the radius . That is,    "
+},
+{
   "id": "backmatter-2",
   "level": "1",
   "url": "backmatter-2.html",

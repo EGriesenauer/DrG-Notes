@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefigure-angle-in-circle-figure" width="310" height="310" viewBox="0 0 310 310">
+  <defs>
+    <clipPath id="prefigure-angle-in-circle-clipPath-0">
+      <rect x="5.0" y="5.0" width="300.0" height="300.0"/>
+    </clipPath>
+    <clipPath id="prefigure-angle-in-circle-clipPath-1">
+      <rect x="5.0" y="5.0" width="300.0" height="300.0"/>
+    </clipPath>
+    <marker id="prefigure-angle-in-circle-arrow-head-end-2_None_24_60-black" markerWidth="9.0" markerHeight="8.0" markerUnits="userSpaceOnUse" orient="auto-start-reverse" refX="6.5" refY="4.0">
+      <path d="M 9.0 4.0L 0.0 8.0L 1.7 5.0L 1.7 3.0L 0.0 0.0Z" fill="black" stroke="none"/>
+    </marker>
+    <marker id="prefigure-angle-in-circle-arrow-head-end-2_None_24_60-black-outline" markerWidth="13.0" markerHeight="12.0" markerUnits="userSpaceOnUse" orient="auto-start-reverse" refX="8.5" refY="6.0">
+      <path d="M 11.8 7.8 L 2.8 11.8 A 2 2 0 0 1 0.0 10.0 L 0.0 2.0 A 2 2 0 0 1 2.8 0.2 L 11.8 4.2 A 2 2 0 0 1 11.8 7.8 Z" fill="white" stroke="none"/>
+    </marker>
+  </defs>
+  <g id="prefigure-angle-in-circle-grid" stroke="#ccc" stroke-width="1">
+    <line x1="5.0" y1="305.0" x2="5.0" y2="5.0"/>
+    <line x1="55.0" y1="305.0" x2="55.0" y2="5.0"/>
+    <line x1="105.0" y1="305.0" x2="105.0" y2="5.0"/>
+    <line x1="155.0" y1="305.0" x2="155.0" y2="5.0"/>
+    <line x1="205.0" y1="305.0" x2="205.0" y2="5.0"/>
+    <line x1="255.0" y1="305.0" x2="255.0" y2="5.0"/>
+    <line x1="305.0" y1="305.0" x2="305.0" y2="5.0"/>
+    <line x1="5.0" y1="305.0" x2="305.0" y2="305.0"/>
+    <line x1="5.0" y1="255.0" x2="305.0" y2="255.0"/>
+    <line x1="5.0" y1="205.0" x2="305.0" y2="205.0"/>
+    <line x1="5.0" y1="155.0" x2="305.0" y2="155.0"/>
+    <line x1="5.0" y1="105.0" x2="305.0" y2="105.0"/>
+    <line x1="5.0" y1="55.0" x2="305.0" y2="55.0"/>
+    <line x1="5.0" y1="5.0" x2="305.0" y2="5.0"/>
+  </g>
+  <path id="prefigure-angle-in-circle-path-0" d="M 305.0 155.0 L 304.7 145.6 L 303.8 136.2 L 302.3 126.9 L 300.3 117.7 L 297.7 108.6 L 294.5 99.8 L 290.7 91.1 L 286.4 82.7 L 281.6 74.6 L 276.4 66.8 L 270.6 59.4 L 264.3 52.3 L 257.7 45.7 L 250.6 39.4 L 243.2 33.6 L 235.4 28.4 L 227.3 23.6 L 218.9 19.3 L 210.2 15.5 L 201.4 12.3 L 192.3 9.7 L 183.1 7.7 L 173.8 6.2 L 164.4 5.3 L 155.0 5.0 L 145.6 5.3 L 136.2 6.2 L 126.9 7.7 L 117.7 9.7 L 108.6 12.3 L 99.8 15.5 L 91.1 19.3 L 82.7 23.6 L 74.6 28.4 L 66.8 33.6 L 59.4 39.4 L 52.3 45.7 L 45.7 52.3 L 39.4 59.4 L 33.6 66.8 L 28.4 74.6 L 23.6 82.7 L 19.3 91.1 L 15.5 99.8 L 12.3 108.6 L 9.7 117.7 L 7.7 126.9 L 6.2 136.2 L 5.3 145.6 L 5.0 155.0 L 5.3 164.4 L 6.2 173.8 L 7.7 183.1 L 9.7 192.3 L 12.3 201.4 L 15.5 210.2 L 19.3 218.9 L 23.6 227.3 L 28.4 235.4 L 33.6 243.2 L 39.4 250.6 L 45.7 257.7 L 52.3 264.3 L 59.4 270.6 L 66.8 276.4 L 74.6 281.6 L 82.7 286.4 L 91.1 290.7 L 99.8 294.5 L 108.6 297.7 L 117.7 300.3 L 126.9 302.3 L 136.2 303.8 L 145.6 304.7 L 155.0 305.0 L 164.4 304.7 L 173.8 303.8 L 183.1 302.3 L 192.3 300.3 L 201.4 297.7 L 210.2 294.5 L 218.9 290.7 L 227.3 286.4 L 235.4 281.6 L 243.2 276.4 L 250.6 270.6 L 257.7 264.3 L 264.3 257.7 L 270.6 250.6 L 276.4 243.2 L 281.6 235.4 L 286.4 227.3 L 290.7 218.9 L 294.5 210.2 L 297.7 201.4 L 300.3 192.3 L 302.3 183.1 L 303.8 173.8 L 304.7 164.4 Z" stroke="black" stroke-width="2" fill="none"/>
+  <path id="prefigure-angle-in-circle-path-1" d="M 305.0 155.0 L 155.0 155.0 L 49.0 49.0" stroke="black" stroke-width="2" fill="none" clip-path="url(#prefigure-angle-in-circle-clipPath-1)"/>
+  <g id="prefigure-angle-in-circle-g-0">
+    <g transform="translate(162.7,132.5) translate(-4.2,-12.9)">
+      <g id="prefigure-angle-in-circle-g-1">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.184px" width="8.488px" height="12.944px" role="img" focusable="false" viewBox="0 -705 469 715" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure-angle-in-circle-MJX-2-TEX-I-1D703" d="M35 200Q35 302 74 415T180 610T319 704Q320 704 327 704T339 705Q393 701 423 656Q462 596 462 495Q462 380 417 261T302 66T168 -10H161Q125 -10 99 10T60 63T41 130T35 200ZM383 566Q383 668 330 668Q294 668 260 623T204 521T170 421T157 371Q206 370 254 370L351 371Q352 372 359 404T375 484T383 566ZM113 132Q113 26 166 26Q181 26 198 36T239 74T287 161T335 307L340 324H145Q145 321 136 286T120 208T113 132Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="greekletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="theta">
+                <use data-c="1D703" xlink:href="#prefigure-angle-in-circle-MJX-2-TEX-I-1D703"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <path d="M 175.0 155.0 A 20.0 20.0 0 0 0 140.9 140.9" stroke="black" stroke-width="2" fill="none" marker-end="url(#prefigure-angle-in-circle-arrow-head-end-2_None_24_60-black)"/>
+  </g>
+</svg>
