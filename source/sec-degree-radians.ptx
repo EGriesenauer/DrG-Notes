@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-degree-radians" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Measuring Angles: Degrees and Radians</title>
+
+  <p>
+    Just like other types of measurements, when we measure how large an angle is, we will need to decide what
+    <em>units</em> to use for our measurement. As in other scientific fields, students will find that the unit we
+    use in class is different from the unit that you are familiar with in everyday life. Outside of the mathematics
+    classroom (and possibly in your high school math classes), you will usually measure angles in 
+    <em>degrees</em>. However, in a the Calculus sequence, we will measure angles using a different unit called
+    <term>radians</term>. Using radians instead of degrees makes some geometric formulas simpler, but the main benefit
+    will be in Calculus I. What we'll see is that using radians makes the derivative rules for trigonometric functions
+    much simpler. It's okay if those words don't make sense yet. I wouldn't expect them to. But I want you to know that
+    there are benefits to using radians, even if we don't get to see the payoffs anytime soon.
+  </p>
+
+  <p>
+    To define the radian measure of an angle, we need to think of an angle as sitting inside of a circle, with its
+    vertex at the center of a circle.
+  </p>
+
+  <figure>
+  <caption>Angle inscribed in a circle</caption>
+  <image width="50%">
+  <prefigure label="prefigure-angle-in-circle" xmlns="https://prefigure.org">
+    <diagram dimensions="(300,300)" margins="5">
+    <coordinates bbox="(-3,-3,3,3)">
+     <grid/>
+      <circle center="(0,0)" radius="3"/>
+      <definition>
+       points=((3,0),(0,0),(-2.12,2.12))
+      </definition>
+      <polygon points="points" stroke="black"/>
+      <angle-marker points="points" radius="20" arrow="yes" reverse="yes">
+       <m>\theta</m>
+      </angle-marker>
+    </coordinates>
+    </diagram>
+  </prefigure>
+  </image>
+  </figure>
+
+  <definition>
+    <statement>
+      <p>
+      The <term>radian</term> measure of the angle <m>\theta</m> is the ratio of the arc length <m>s</m> to the
+      radius <m>r</m>. That is,
+      <md>\theta = \frac{s}{r}</md>
+      </p>
+    </statement>
+  </definition>
+
+  <p>
+    A few remarks about this definition.
+    <ul>
+      <li>
+        Since both arc length and radius are lengths, so the radian measure of an angle is the ratio of two lengths.
+        Because of this, radian is a dimensionless unit and the radian measure of an angle is often written without
+        a unit at all. For instance, instead of writing "<m>\pi</m> radians" or "<m>\pi</m> rad", we will just write
+        <m>\pi</m>.
+      </li>
+
+      <li>
+        Recall that the circumference of a circle is <m>C=2 \pi r</m>. This is the arc length for the angle that is a
+        full rotation. So, according to the definition, the radian measure of a full rotation is
+        <me>
+          \frac{2\pi r}{r} = 2\pi
+        </me>
+        This example hints at one of the downsides of measuring angles using radians: often, the measures will
+        involve the constant <m>pi</m>. This can make radians a bit intimidating, but don't let it bother you! It
+        will only be a minor inconvenience.
+      </li>
+
+    </ul>
+  </p>  
+
+</section>
