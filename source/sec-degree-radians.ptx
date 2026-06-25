@@ -68,7 +68,7 @@
           \frac{2\pi r}{r} = 2\pi
         </me>
         This example hints at one of the downsides of measuring angles using radians: often, the measures will
-        involve the constant <m>pi</m>. This can make radians a bit intimidating, but don't let it bother you! It
+        involve the constant <m>\pi</m>. This can make radians a bit intimidating, but don't let it bother you! It
         will only be a minor inconvenience.
       </li>
 

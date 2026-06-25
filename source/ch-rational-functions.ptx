@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-rational-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Rational Functions</title>
+
+  <introduction>
+    <p> 
+      In this chapter, you'll learn about rational functions.
+    </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-rat-fnc-domain.ptx" />
+</chapter>
